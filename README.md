@@ -18,6 +18,8 @@ Arduino sketches for developing and testing a YF-DN80 flow meter logger.
 - `Code/FlowMeterFirst/FlowMeterFirst.ino`  
   Main logger sketch. Combines flow meter input, DS3231 timestamps, SD card CSV logging, and total volume accumulation.
 
+- `Code/FlowMeterCalibration/FlowMeterCalibration.ino` - Interactive serial calibration tool for calculating the flow meter K factor from multiple pulse-count and measured-volume trials.
+
 - `Code/FlowMeterTest/FlowMeterTest.ino`  
   SD card write test that creates `dummy.csv` and records dummy flow values.
 

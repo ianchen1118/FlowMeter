@@ -8,7 +8,7 @@
       Flow rate (L/min) = Frequency / 0.5
 */
 
-const uint8_t FLOW_PIN = 5;
+const uint8_t FLOW_PIN = 11;
 
 // ============================================================
 // TUNING VARIABLES

@@ -20,7 +20,7 @@ const uint8_t SD_CS_PIN = 4;
 // YF-DN80 datasheet default:
 // Frequency (Hz) = K_FACTOR_HZ_PER_L_MIN * Flow rate (L/min)
 // Default: F = 0.5 * Q
-float K_FACTOR_HZ_PER_L_MIN = 0.5;
+float K_FACTOR_HZ_PER_L_MIN = 0.45;
 
 // Optional correction after calibration.
 // Leave these at the default values for now.
